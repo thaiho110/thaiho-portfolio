@@ -107,7 +107,7 @@ export const Contact = () => {
                                     </a>
                                     <a href="https://dev.to/thaiho110" target="https://dev.to/thaiho110">
                                         <div>
-                                            <img src="src/assets/dev-rainbow.png" className="h-6 w-6"></img>
+                                            <img src="/dev-rainbow.png" className="h-6 w-6"></img>
                                         </div>
                                     </a>
                                 </div>
