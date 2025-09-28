@@ -5,7 +5,7 @@ const projects = [
         id: 1,
         title: "Bare Metal OS and App development for Micro controller using C/C++",
         description: "Developed a bare-metal operating system and applications for microcontrollers using C/C++. Implemented core functionalities such as task scheduling, memory management, and peripheral interfacing. Created sample applications to demonstrate the OS capabilities, including sensor data acquisition and communication protocols.",
-        image: "projects/project1.webp",
+        image: "projects/project-embedded.jpg",
         tags: ["C", "ARM Assembly", "Bare-Metal Development", "ARMv8 Architecture", "QEMU", "GCC", "UART", "Frame buffer Drivers"],
         githubURL: "https://github.com/mintdunno/Embedded_3_group",
         link_type: "github"
@@ -24,7 +24,7 @@ const projects = [
         id: 3,
         title: "Mixed Reality (MR) In Industrial Robot Performance Monitoring & Optimization",
         description: "Developed a Mixed Reality (MR) application for industrial robot performance monitoring and optimization.",
-        image: "projects/project-embedded.jpg",
+        image: "projects/project1.webp",
         tags: ["C#","Unity", "HoloLens 2","Mixed Reality", "Industrial Automation", "Performance Monitoring", "Optimization"],
         githubURL: "https://www.rmitvn-showcase.com/infinityspark",
         link_type: "link"
@@ -46,7 +46,7 @@ export const Project = () => {
                     {projects.map((project, key) => (
                         <div key={key} className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover">
                             <div className="h-48 overflow-hidden">
-                                <img src={project.image} alt={project.title} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-11"/>
+                                <img src={project.image} alt={project.title} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"/>
                             </div>
 
                             <h3 className="text-lg font-semibold mb-2">{project.title}</h3>
