@@ -15,7 +15,7 @@ export const HeroSection = () => {
                         Seeking for internship or entry-level embedded software engineer role to apply skills in software development, hardware interfacing, and system-level problem-solving.
                     </p>
                     <div className="mt-6 opacity-0 animate-fade-in-delay-4">
-                        <a href="#projects" className="cosmic-button">
+                        <a href="#project" className="cosmic-button">
                             View My Work
                         </a>
                     </div>

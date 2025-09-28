@@ -49,8 +49,8 @@ export const Project = () => {
                                 <img src={project.image} alt={project.title} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"/>
                             </div>
 
-                            <h3 className="text-lg font-semibold mb-2">{project.title}</h3>
-                            <p className="text-muted-foreground text-sm mb-4">{project.description}</p>
+                            <h3 className="text-lg font-semibold m-4">{project.title}</h3>
+                            <p className="text-muted-foreground text-sm m-2 text-balance">{project.description}</p>
                             <div className="p-6">
                                 <div className="flex flex-wrap gap-2 mb-4">
                                     {project.tags.map((tag, tagKey) => (

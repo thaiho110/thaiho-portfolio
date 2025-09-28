@@ -10,13 +10,15 @@ import { StarBackground } from "../components/star-background";
 import { ThemeToggle } from "../components/theme-toggle";
 
 export const Home = () => {
+
   return (
     <div className="min-h-screen flex flex-col">
     {/* Theme Toggle */}
     <ThemeToggle />
 
     {/* Background Animation */}
-    <StarBackground />
+    <StarBackground/>
+    
 
     {/* Navigation */}
     <NavBar/>
