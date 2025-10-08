@@ -11,8 +11,7 @@ export const HeroSection = () => {
                         <span className="text-gradient ml-2 opacity-0 animate-fade-in-delay-3"> Ho</span>
                     </h1>
                     <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto opacity-0 animate-fade-in-delay-4">
-                        I am a final year student in software engineering with enthusiasm in embedded software development. 
-                        Seeking for internship or entry-level embedded software engineer role to apply skills in software development, hardware interfacing, and system-level problem-solving.
+                        I am a highly motivated final year student in Software Engineering with a strong foundation in front-end development. Experienced in building project features complex logic, routing and API synchronization. Eager to learn and apply my skills and passions on new platforms and make impact on real world projects.
                     </p>
                     <div className="mt-6 opacity-0 animate-fade-in-delay-4">
                         <a href="#project" className="cosmic-button">

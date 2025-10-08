@@ -3,6 +3,15 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
     {
         id: 1,
+        title: "Personal Portfolio Website",
+        description: "A website built with ReactJS for showing personal portfolio",
+        image: "projects/1687.jpg",
+        tags: ["JavaScript","React", "HTML","CSS", "Vercel", "Git"],
+        githubURL: "https://github.com/thaiho110/thaiho-portfolio",
+        link_type: "github"
+    },
+    {
+        id: 2,
         title: "Bare Metal OS and App development for Micro controller using C/C++",
         description: "Developed a bare-metal operating system and applications for microcontrollers using C/C++. Implemented core functionalities such as task scheduling, memory management, and peripheral interfacing. Created sample applications to demonstrate the OS capabilities, including sensor data acquisition and communication protocols.",
         image: "projects/project-embedded.jpg",
@@ -12,7 +21,7 @@ const projects = [
 
     },
     {
-        id: 2,
+        id: 3,
         title: "IoT Weather Station with ESP32 and MQTT",
         description: "Designed and implemented an IoT weather station using ESP32 microcontroller to monitor environmental parameters such as temperature, humidity, and atmospheric pressure. Utilized MQTT protocol for real-time data transmission to a cloud server, enabling remote access and monitoring via a web dashboard.",
         image: "projects/project-embedded.jpg",
@@ -21,7 +30,7 @@ const projects = [
         link_type: "github"
     },
     {
-        id: 3,
+        id: 4,
         title: "Mixed Reality (MR) In Industrial Robot Performance Monitoring & Optimization",
         description: "Developed a Mixed Reality (MR) application for industrial robot performance monitoring and optimization.",
         image: "projects/project1.webp",
@@ -29,6 +38,7 @@ const projects = [
         githubURL: "https://www.rmitvn-showcase.com/infinityspark",
         link_type: "link"
     },
+    
 ]
 
 export const Project = () => {
@@ -67,9 +77,14 @@ export const Project = () => {
                                             target={project.githubURL}
                                         >
                                             {project.link_type === "link" ? (
-                                                <ExternalLink size={20} className="h-6 w-6 text-primary hover:text-primary-foreground transition-colors duration-300" onClick={() => window.open(project.githubURL, "_blank")}/>
+                                                <div className="flex items-center justify-center">
+                                                    <ExternalLink size={20} className="h-6 w-6 text-primary hover:text-primary-foreground transition-colors duration-300" onClick={() => window.open(project.githubURL, "_blank")}/>
+                                                </div>
+                                                
                                             ) : (
-                                                <Github size={20} className="h-6 w-6 text-primary hover:text-primary-foreground transition-colors duration-300" onClick={() => window.open(project.githubURL, "_blank")}/>
+                                                <div className="flex items-center justify-center">
+                                                    <Github size={20} className="h-6 w-6 text-primary hover:text-primary-foreground transition-colors duration-300" onClick={() => window.open(project.githubURL, "_blank")}/>
+                                                </div>
                                             )}
                                         </a>
                                     </div>

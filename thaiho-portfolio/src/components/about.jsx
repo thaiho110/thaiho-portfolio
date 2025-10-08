@@ -1,4 +1,4 @@
-import { Code, Cpu, Microchip } from "lucide-react";
+import { Code, Cpu, Github, Microchip } from "lucide-react";
 
 export const About = () => {
     return (
@@ -11,15 +11,12 @@ export const About = () => {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                 <div className="space-y-6 ">
-                    <h3 className="text-xl font-semibold">Passionate Embedded Software Engineer</h3>
+                    <h3 className="text-xl font-semibold">Passionate Software Engineer</h3>
                     <p className="text-muted-foreground text-left pl-2">
-                        I am a passionate advocate for leveraging IoT solutions to enhance home management, improve living quality, and promote environmental sustainability. My primary focus is on creating smart, connected systems that make a tangible difference in daily life and for the planet
+                        I am a passionate software engineer. I love finding solutions to different world problems using technological advancement 
                     </p>
                     <p className="text-muted-foreground text-left pl-2">
-                        I thrive on learning and implementing new technologies, with a particular focus on software development and embedded systems. This continuous exploration allows me to stay at the forefront of innovation and apply modern solutions to complex challenges
-                    </p>
-                    <p className="text-muted-foreground text-left pl-2">
-                        To further bridge the gap between embedded hardware and intelligent systems, I am currently self-learning Python. My goal is to implement AI and Machine Learning models to create more autonomous and predictive IoT applications 
+                        I thrive on learning and implementing new technologies, with a particular focus on software development. This continuous exploration allows me to stay at the forefront of innovation and apply modern solutions to tackle complex challenges
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
                         <a href="#contact" className="cosmic-button">
@@ -28,8 +25,8 @@ export const About = () => {
                         </a> 
 
                         <a 
-                        href="/HoQuocThai_CV.pdf" 
-                        download="HoQuocThai_CV.pdf"
+                        href="/Ho_Quoc_Thai_CV.pdf" 
+                        download="Ho_Quoc_Thai_CV.pdf"
                         className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300 text-center">
                             {" "}
                             Download CV
@@ -46,15 +43,15 @@ export const About = () => {
                             </div>
                             <div className="text-left">
                                 <h4 className="font-semibold mb-1">
-                                   Embedded Software Engineer 
+                                   Software Engineer 
                                 </h4>
                                 <p className="text-muted-foreground text-sm">
-                                    Proficient in C/C++ programming and familiar with different communication protocols and RTOS concepts
+                                    Proficient in JavaScript, ReactJS and TypeScript, building scalable and maintainable web applications.
                                 </p>
                             </div>
                         </div>
                     </div>
-                    <div className="gradient-border p-6 card-hover">
+                    {/* <div className="gradient-border p-6 card-hover">
                         <div className="flex items-start gap-4">
                             <div className="p-3 rounded-full bg-primary/10">
                                 <Microchip className="h-6 w-6 text-primary"/>
@@ -68,18 +65,18 @@ export const About = () => {
                                 </p>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                     <div className="gradient-border p-6 card-hover">
                         <div className="flex items-start gap-4">
                             <div className="p-3 rounded-full bg-primary/10">
-                                <Cpu className="h-6 w-6 text-primary"/>
+                                <Github className="h-6 w-6 text-primary"/>
                             </div>
                             <div className="text-left">
                                 <h4 className="font-semibold mb-1">
-                                   Firmware and System Integration
+                                    Version Control (Git & GitHub)
                                 </h4>
                                 <p className="text-muted-foreground text-sm">
-                                   Developing and integrating firmware for various microcontrollers.
+                                    Familiar with using Git for branching, merging, pull requests, and collaborative workflows, and GitHub for repository hosting, code review, and CI integrations.
                                 </p>
                             </div>
                         </div>
